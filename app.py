@@ -1,7 +1,12 @@
 from config import ADMIN_ID
 from loader import bot, dp, storage
 from middleware import ControlUpdate
-
+import loader
+import middleware
+import states
+import database_schemes
+import keyboards
+import handlers
 
 async def on_shutdown(dp):
     await bot.close()
