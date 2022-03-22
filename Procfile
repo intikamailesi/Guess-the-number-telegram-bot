@@ -1,1 +1,1 @@
-worker: python3 app.py
+worker: aiogram app.py
